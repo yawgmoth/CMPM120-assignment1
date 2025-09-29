@@ -89,7 +89,7 @@ class Engine {
 
     itemString(item){
         let emojicode = ":" + item + ":";
-        let emojiu = emojione.shortnameToUnicode(emojicode);
+        let emojiu = joypixels.shortnameToUnicode(emojicode);
         if (emojiu != emojicode)
         {
             return emojiu;
